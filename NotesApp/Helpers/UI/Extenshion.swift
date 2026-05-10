@@ -30,11 +30,11 @@ extension Date {
         if minutes < 1 {
             return "только что"
         } else if minutes < 60 {
-            return "\(minutes) мин назад"
+            return "\(minutes)"
         } else if hours < 24 {
-            return "\(hours) ч назад"
+            return "\(hours)"
         } else if days < 7 {
-            return "\(days) д назад"
+            return "\(days)"
         } else {
             let formatter = DateFormatter()
             formatter.dateFormat = "dd.MM.yy"
