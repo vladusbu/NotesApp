@@ -5,6 +5,12 @@ The project was built to practice iOS development, data persistence, and applica
 
 ---
 
+## 📱 Screenshots
+
+![Home Screen](NotesApp/Screenshots/notesapp-home.png)
+
+---
+
 ## ✨ Features
 
 - Create new notes
